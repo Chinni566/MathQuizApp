@@ -4,8 +4,10 @@ function add_user () {
 
     var player2_name = document.getElementById("player2_input").value;
 
-    localStorage.setItem("Player 1", player1_name);
+    localStorage.setItem("Player1", player1_name);
 
-    localStorage.setItem("Player 2", player2_name);
-
+    localStorage.setItem("Player2", player2_name);
+ 
+    window.location="gamepage.html"
 }
+
